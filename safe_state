@@ -110,8 +110,7 @@ int getRes(int pID,int request[])
            
             if (safemode() == 0)
             {
-                        printf("\nx========================x\n|Safe Mode. Resources Allocated|\nx=========================x\n");printf("\nAuthor:@bharatKarnani\n");
-                        
+                        printf("\nx========================x\n|Safe Mode. Resources Allocated|\nx=========================x\n");                      
  exit(1);
                         return 0;
             }
