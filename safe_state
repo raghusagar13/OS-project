@@ -251,5 +251,5 @@ pthread_mutex_lock(&mutex1);
             free(tid);
             free(pid);
             free(safeSeq);
-            return 0;
+            return 1;
         }
